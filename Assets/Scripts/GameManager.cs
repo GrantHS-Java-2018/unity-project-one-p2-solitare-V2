@@ -1,18 +1,18 @@
-﻿using System.Collections;
-using System.Collections.Generic;
-using UnityEngine;
+﻿using UnityEngine;
 
 public class GameManager : MonoBehaviour
 {
-    // Start is called before the first frame update
-    void Start()
-    {
-        
-    }
 
-    // Update is called once per frame
-    void Update()
+    [SerializeField] private GameObject card;
+    // Use this for initialization
+    void Start ()
     {
-        
+        Instantiate(card);
+		
     }
+	
+	
+
 }
+
+//Use Fenger's code example for reference on making the card decks

@@ -1,18 +1,18 @@
-﻿using System.Collections;
-using System.Collections.Generic;
-using UnityEngine;
+﻿using UnityEngine;
 
-public class PileScript : MonoBehaviour
-{
-    // Start is called before the first frame update
-    void Start()
-    {
-        
+public abstract class PileScript : CardCollection {
+    private CardDeck deck = new CardDeck();
+
+    // Use this for initialization
+    void Start () {
+        var newCard = deck.DealCard();
+        Debug.Log(newCard);
+		
     }
-
+	
     // Update is called once per frame
-    void Update()
-    {
-        
+    void Update () {
+		
     }
+	
 }
