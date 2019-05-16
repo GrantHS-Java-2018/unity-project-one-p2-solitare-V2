@@ -130,6 +130,7 @@ GameObject:
   m_Component:
   - component: {fileID: 111406643}
   - component: {fileID: 111406644}
+  - component: {fileID: 111406645}
   m_Layer: 0
   m_Name: Diamonds Pile
   m_TagString: Untagged
@@ -200,6 +201,19 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &111406645
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 111406642}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 21a46488a6090884aafbde9da354c4b3, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  label: 
 --- !u!1 &144632918
 GameObject:
   m_ObjectHideFlags: 0
@@ -891,6 +905,7 @@ GameObject:
   - component: {fileID: 313967274}
   - component: {fileID: 313967273}
   - component: {fileID: 313967272}
+  - component: {fileID: 313967276}
   m_Layer: 5
   m_Name: heart_king
   m_TagString: Untagged
@@ -966,6 +981,18 @@ RectTransform:
   m_AnchoredPosition: {x: -101.109375, y: 141.26562}
   m_SizeDelta: {x: 100, y: 150}
   m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &313967276
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 313967271}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 65b1ffe82cb85a942a5447d12e06c9ee, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &328187570
 GameObject:
   m_ObjectHideFlags: 0
@@ -976,6 +1003,7 @@ GameObject:
   m_Component:
   - component: {fileID: 328187571}
   - component: {fileID: 328187572}
+  - component: {fileID: 328187573}
   m_Layer: 0
   m_Name: Pile 4
   m_TagString: Untagged
@@ -1045,6 +1073,19 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &328187573
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 328187570}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 91646892ed049f0448fa9da8eb98cb7d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  label: 
 --- !u!1 &334797838
 GameObject:
   m_ObjectHideFlags: 0
@@ -1055,6 +1096,7 @@ GameObject:
   m_Component:
   - component: {fileID: 334797839}
   - component: {fileID: 334797840}
+  - component: {fileID: 334797841}
   m_Layer: 0
   m_Name: Pile 3
   m_TagString: Untagged
@@ -1124,6 +1166,19 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &334797841
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 334797838}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e43084b2c3c97ab42af53d1152fb6a33, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  label: 
 --- !u!1 &447844280
 GameObject:
   m_ObjectHideFlags: 0
@@ -1483,6 +1538,7 @@ GameObject:
   - component: {fileID: 534669905}
   - component: {fileID: 534669904}
   - component: {fileID: 534669903}
+  - component: {fileID: 534669906}
   m_Layer: 0
   m_Name: Main Camera
   m_TagString: MainCamera
@@ -1555,6 +1611,21 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &534669906
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 534669902}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 27efd917d48bf29418ad31a72ce60998, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  cardPrefab: {fileID: 2102526384588347869, guid: 4a105f6ad15f0f8428f97f51c03848f1,
+    type: 3}
+  kingOfHearts: {fileID: 21300050, guid: 7dcd69fe66dd70141a13ce64b63d2cde, type: 3}
 --- !u!1 &584932609
 GameObject:
   m_ObjectHideFlags: 0
@@ -1608,6 +1679,7 @@ GameObject:
   m_Component:
   - component: {fileID: 702480800}
   - component: {fileID: 702480801}
+  - component: {fileID: 702480802}
   m_Layer: 0
   m_Name: Pile 6
   m_TagString: Untagged
@@ -1677,6 +1749,19 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &702480802
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 702480799}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a76d78c2928088f46abb7355b101b3ea, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  label: 
 --- !u!1 &772524610
 GameObject:
   m_ObjectHideFlags: 0
@@ -1918,6 +2003,7 @@ GameObject:
   m_Component:
   - component: {fileID: 875445067}
   - component: {fileID: 875445068}
+  - component: {fileID: 875445069}
   m_Layer: 0
   m_Name: Spades Pile
   m_TagString: Untagged
@@ -1988,6 +2074,19 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &875445069
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 875445066}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 21a46488a6090884aafbde9da354c4b3, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  label: 
 --- !u!1 &904646121
 GameObject:
   m_ObjectHideFlags: 0
@@ -2261,6 +2360,7 @@ GameObject:
   - component: {fileID: 1008075007}
   - component: {fileID: 1008075010}
   - component: {fileID: 1008075009}
+  - component: {fileID: 1008075011}
   m_Layer: 0
   m_Name: Pile 1
   m_TagString: Untagged
@@ -2372,6 +2472,19 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1008075006}
   m_CullTransparentMesh: 0
+--- !u!114 &1008075011
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1008075006}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 63c415d84cb58774f894a79bd9a8110f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  label: 
 --- !u!1 &1032064383
 GameObject:
   m_ObjectHideFlags: 0
@@ -2730,6 +2843,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1292408167}
   - component: {fileID: 1292408168}
+  - component: {fileID: 1292408169}
   m_Layer: 0
   m_Name: Clubs Pile
   m_TagString: Untagged
@@ -2800,6 +2914,19 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &1292408169
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1292408166}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 21a46488a6090884aafbde9da354c4b3, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  label: 
 --- !u!1 &1395069035
 GameObject:
   m_ObjectHideFlags: 0
@@ -2810,6 +2937,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1395069036}
   - component: {fileID: 1395069037}
+  - component: {fileID: 1395069038}
   m_Layer: 0
   m_Name: Pile 2
   m_TagString: Untagged
@@ -2879,6 +3007,19 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &1395069038
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1395069035}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 08cd06bd25f8c9c44b17c884901b2857, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  label: 
 --- !u!1 &1455655773
 GameObject:
   m_ObjectHideFlags: 0
@@ -3063,6 +3204,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1516399602}
   - component: {fileID: 1516399603}
+  - component: {fileID: 1516399604}
   m_Layer: 0
   m_Name: Pile 5
   m_TagString: Untagged
@@ -3132,6 +3274,19 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &1516399604
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1516399601}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 96b2be25515b9484c84f6079ca88f3f4, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  label: 
 --- !u!1 &1634629291
 GameObject:
   m_ObjectHideFlags: 0
@@ -3229,6 +3384,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1840064488}
   - component: {fileID: 1840064489}
+  - component: {fileID: 1840064490}
   m_Layer: 0
   m_Name: Discard Pile
   m_TagString: Untagged
@@ -3298,6 +3454,19 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &1840064490
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1840064487}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bb7f32bfb97a5e843893a2f75773ec2e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  label: 
 --- !u!1 &1867332851
 GameObject:
   m_ObjectHideFlags: 0
@@ -3395,6 +3564,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1881619197}
   - component: {fileID: 1881619198}
+  - component: {fileID: 1881619199}
   m_Layer: 0
   m_Name: Pile 7
   m_TagString: Untagged
@@ -3464,6 +3634,19 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &1881619199
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1881619196}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fe59f032a7979db408308d0d6c3ea082, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  label: 
 --- !u!1 &1912967421
 GameObject:
   m_ObjectHideFlags: 0
@@ -3722,6 +3905,7 @@ GameObject:
   m_Component:
   - component: {fileID: 2058929504}
   - component: {fileID: 2058929505}
+  - component: {fileID: 2058929506}
   m_Layer: 0
   m_Name: Draw Pile
   m_TagString: Untagged
@@ -3791,6 +3975,19 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &2058929506
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2058929503}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 564af54ad20edc945ad725ffa2bd677b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  label: 
 --- !u!1 &2101544597
 GameObject:
   m_ObjectHideFlags: 0
@@ -3801,6 +3998,7 @@ GameObject:
   m_Component:
   - component: {fileID: 2101544598}
   - component: {fileID: 2101544599}
+  - component: {fileID: 2101544600}
   m_Layer: 0
   m_Name: Hearts Pile
   m_TagString: Untagged
@@ -3871,6 +4069,19 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &2101544600
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2101544597}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 21a46488a6090884aafbde9da354c4b3, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  label: 
 --- !u!1 &2131458214
 GameObject:
   m_ObjectHideFlags: 0
