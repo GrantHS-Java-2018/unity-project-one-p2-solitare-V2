@@ -10,9 +10,14 @@ public class GameManager : MonoBehaviour
         Instantiate(card);
 		
     }
-	
-	
 
+    private void OnValidate()
+    {
+	    throw new System.NotImplementedException();
+	    var card1= new Card();
+	    var card2 = card1 - 1;
+	    
+    }
 }
 
 //Use Fenger's code example for reference on making the card decks
