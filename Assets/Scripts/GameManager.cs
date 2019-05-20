@@ -13,9 +13,7 @@ public class GameManager : MonoBehaviour
 
     private void OnValidate()
     {
-	    throw new System.NotImplementedException();
-	    var card1= new Card();
-	    var card2 = card1 - 1;
+
 	    
     }
 }
