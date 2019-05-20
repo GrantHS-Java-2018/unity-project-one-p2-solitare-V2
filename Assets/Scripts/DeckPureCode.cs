@@ -37,7 +37,7 @@ public class DeckPureCode : MonoBehaviour
             cardInstance.transform.position = new Vector3( .4f * i - 10, 0f, 0f);
             
      
-            Debug.Log("Created Instance " + i);
+            Debug.Log("Created Card Instance " + i);
             cardStack.Push(cardInstance);
                 
                 
