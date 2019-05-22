@@ -1,37 +1,165 @@
 fileFormatVersion: 2
 guid: 7dcd69fe66dd70141a13ce64b63d2cde
 TextureImporter:
-  fileIDToRecycleName:
-    21300000: diamond_ace
-    21300002: diamond_two
-    21300004: diamond_three
-    21300006: diamond_four
-    21300008: diamond_five
-    21300010: diamond_six
-    21300012: diamond_seven
-    21300014: diamond_eight
-    21300016: diamond_nine
-    21300018: diamond_ten
-    21300020: diamond_jack
-    21300022: diamond_queen
-    21300024: diamond_king
-    21300026: hearts_ace
-    21300028: hearts_two
-    21300030: hearts_three
-    21300032: hearts_four
-    21300034: hearts_five
-    21300036: hearts_six
-    21300038: hearts_seven
-    21300040: hearts_eight
-    21300042: hearts_nine
-    21300044: hearts_ten
-    21300046: hearts_jack
-    21300048: hearts_queen
-    21300050: hearts_king
-    21300052: spade_ace
-    21300054: fullCardDeck_0
+  internalIDToNameTable:
+  - first:
+      213: 21300000
+    second: diamond_ace
+  - first:
+      213: 21300002
+    second: diamond_two
+  - first:
+      213: 21300004
+    second: diamond_three
+  - first:
+      213: 21300006
+    second: diamond_four
+  - first:
+      213: 21300008
+    second: diamond_five
+  - first:
+      213: 21300010
+    second: diamond_six
+  - first:
+      213: 21300012
+    second: diamond_seven
+  - first:
+      213: 21300014
+    second: diamond_eight
+  - first:
+      213: 21300016
+    second: diamond_nine
+  - first:
+      213: 21300018
+    second: diamond_ten
+  - first:
+      213: 21300020
+    second: diamond_jack
+  - first:
+      213: 21300022
+    second: diamond_queen
+  - first:
+      213: 21300024
+    second: diamond_king
+  - first:
+      213: 21300026
+    second: hearts_ace
+  - first:
+      213: 21300028
+    second: hearts_two
+  - first:
+      213: 21300030
+    second: hearts_three
+  - first:
+      213: 21300032
+    second: hearts_four
+  - first:
+      213: 21300034
+    second: hearts_five
+  - first:
+      213: 21300036
+    second: hearts_six
+  - first:
+      213: 21300038
+    second: hearts_seven
+  - first:
+      213: 21300040
+    second: hearts_eight
+  - first:
+      213: 21300042
+    second: hearts_nine
+  - first:
+      213: 21300044
+    second: hearts_ten
+  - first:
+      213: 21300046
+    second: hearts_jack
+  - first:
+      213: 21300048
+    second: hearts_queen
+  - first:
+      213: 21300050
+    second: hearts_king
+  - first:
+      213: 21300052
+    second: spade_ace
+  - first:
+      213: 21300054
+    second: spade_two
+  - first:
+      213: 4183977301780427563
+    second: spade_three
+  - first:
+      213: 8903711509915002885
+    second: spades_four
+  - first:
+      213: -4898339979732498812
+    second: spades_five
+  - first:
+      213: -117855589084119887
+    second: spades_six
+  - first:
+      213: -722074290125006784
+    second: spades_seven
+  - first:
+      213: 7074269575831663637
+    second: spades_eight
+  - first:
+      213: 2908887025236657182
+    second: spades_nine
+  - first:
+      213: -8331073658263264255
+    second: spades_ten
+  - first:
+      213: 4005343282262791588
+    second: spades_jack
+  - first:
+      213: 3177237115767616675
+    second: spades_queen
+  - first:
+      213: 2261472352748162947
+    second: spades_king
+  - first:
+      213: -4555218083779362565
+    second: clubs_ace
+  - first:
+      213: -7408351626518642554
+    second: clubs_two
+  - first:
+      213: -7558321943919768367
+    second: clubs_three
+  - first:
+      213: 3643374557843468069
+    second: clubs_four
+  - first:
+      213: 6830417338897361038
+    second: clubs_five
+  - first:
+      213: -7255004697093962919
+    second: clubs_six
+  - first:
+      213: 3872869799028742889
+    second: clubs_seven
+  - first:
+      213: -4640839367310454494
+    second: clubs_eight
+  - first:
+      213: 8784805395826047571
+    second: clubs_nine
+  - first:
+      213: -259364962090551246
+    second: clubs_ten
+  - first:
+      213: 1701133070053040616
+    second: clubs_jack
+  - first:
+      213: 3937540031637793516
+    second: clubs_queen
+  - first:
+      213: -6450736296109713407
+    second: clubs_king
   externalObjects: {}
-  serializedVersion: 7
+  serializedVersion: 10
   mipmaps:
     mipMapMode: 0
     enableMipMap: 0
@@ -127,6 +255,7 @@ TextureImporter:
       tessellationDetail: 0
       bones: []
       spriteID: 3256d5a833765b64babd3c6e88820054
+      internalID: 21300000
       vertices: []
       indices: 
       edges: []
@@ -147,6 +276,7 @@ TextureImporter:
       tessellationDetail: 0
       bones: []
       spriteID: 6b3808f87c1f376438c4b19be550c802
+      internalID: 21300002
       vertices: []
       indices: 
       edges: []
@@ -167,6 +297,7 @@ TextureImporter:
       tessellationDetail: 0
       bones: []
       spriteID: dcb517fc806781e49b8e5d3eb22e49fe
+      internalID: 21300004
       vertices: []
       indices: 
       edges: []
@@ -187,6 +318,7 @@ TextureImporter:
       tessellationDetail: 0
       bones: []
       spriteID: 236b546fa8d7765408d5dfed688d0ce1
+      internalID: 21300006
       vertices: []
       indices: 
       edges: []
@@ -207,6 +339,7 @@ TextureImporter:
       tessellationDetail: 0
       bones: []
       spriteID: a518edb5d4eccaa46862399906c9a680
+      internalID: 21300008
       vertices: []
       indices: 
       edges: []
@@ -227,6 +360,7 @@ TextureImporter:
       tessellationDetail: 0
       bones: []
       spriteID: 45229243d10f2674eb905eae73535088
+      internalID: 21300010
       vertices: []
       indices: 
       edges: []
@@ -247,6 +381,7 @@ TextureImporter:
       tessellationDetail: 0
       bones: []
       spriteID: b5f9347c577f2ea4fa6e1acece0f710b
+      internalID: 21300012
       vertices: []
       indices: 
       edges: []
@@ -267,6 +402,7 @@ TextureImporter:
       tessellationDetail: 0
       bones: []
       spriteID: e5f1eca40d7bef14191a8d596de6f8a3
+      internalID: 21300014
       vertices: []
       indices: 
       edges: []
@@ -287,6 +423,7 @@ TextureImporter:
       tessellationDetail: 0
       bones: []
       spriteID: 8f63d4a9fbefb1a4c93b5a433234b908
+      internalID: 21300016
       vertices: []
       indices: 
       edges: []
@@ -307,6 +444,7 @@ TextureImporter:
       tessellationDetail: 0
       bones: []
       spriteID: b8821bad0ae326243ba6ab76a0698445
+      internalID: 21300018
       vertices: []
       indices: 
       edges: []
@@ -327,6 +465,7 @@ TextureImporter:
       tessellationDetail: 0
       bones: []
       spriteID: 797054ccf9345314da2ad6a5c94e584c
+      internalID: 21300020
       vertices: []
       indices: 
       edges: []
@@ -347,6 +486,7 @@ TextureImporter:
       tessellationDetail: 0
       bones: []
       spriteID: 38c42c63ed2ba0b4bb089a2397d4d212
+      internalID: 21300022
       vertices: []
       indices: 
       edges: []
@@ -367,6 +507,7 @@ TextureImporter:
       tessellationDetail: 0
       bones: []
       spriteID: 203cdee68b4220e45b3496b7fe244294
+      internalID: 21300024
       vertices: []
       indices: 
       edges: []
@@ -387,6 +528,7 @@ TextureImporter:
       tessellationDetail: 0
       bones: []
       spriteID: 4cf6d1ca8955a2540874e06b812464bb
+      internalID: 21300026
       vertices: []
       indices: 
       edges: []
@@ -407,6 +549,7 @@ TextureImporter:
       tessellationDetail: 0
       bones: []
       spriteID: c28ad756470138d47a8692851608c61f
+      internalID: 21300028
       vertices: []
       indices: 
       edges: []
@@ -427,6 +570,7 @@ TextureImporter:
       tessellationDetail: 0
       bones: []
       spriteID: b5241f225652c7844a9d24e285f2cd29
+      internalID: 21300030
       vertices: []
       indices: 
       edges: []
@@ -447,6 +591,7 @@ TextureImporter:
       tessellationDetail: 0
       bones: []
       spriteID: 55cfc0ec3c4d3b04eb848c1461cb4720
+      internalID: 21300032
       vertices: []
       indices: 
       edges: []
@@ -467,6 +612,7 @@ TextureImporter:
       tessellationDetail: 0
       bones: []
       spriteID: 7a9e8f4fea573e749a8b189ca7193364
+      internalID: 21300034
       vertices: []
       indices: 
       edges: []
@@ -487,6 +633,7 @@ TextureImporter:
       tessellationDetail: 0
       bones: []
       spriteID: ac249b7da78a1494c9207e5f696a8e92
+      internalID: 21300036
       vertices: []
       indices: 
       edges: []
@@ -507,6 +654,7 @@ TextureImporter:
       tessellationDetail: 0
       bones: []
       spriteID: b6db872b2e05332418dca6fa7520a8d3
+      internalID: 21300038
       vertices: []
       indices: 
       edges: []
@@ -527,6 +675,7 @@ TextureImporter:
       tessellationDetail: 0
       bones: []
       spriteID: a833609bc8eca0643be56ec292d81b00
+      internalID: 21300040
       vertices: []
       indices: 
       edges: []
@@ -547,6 +696,7 @@ TextureImporter:
       tessellationDetail: 0
       bones: []
       spriteID: 1540694988f57da46add608d0a12bbff
+      internalID: 21300042
       vertices: []
       indices: 
       edges: []
@@ -567,6 +717,7 @@ TextureImporter:
       tessellationDetail: 0
       bones: []
       spriteID: fe1f24396ccba8749a60afddd858a4db
+      internalID: 21300044
       vertices: []
       indices: 
       edges: []
@@ -587,6 +738,7 @@ TextureImporter:
       tessellationDetail: 0
       bones: []
       spriteID: f7d0570de9cc8084cb1877e78257d9ff
+      internalID: 21300046
       vertices: []
       indices: 
       edges: []
@@ -607,6 +759,7 @@ TextureImporter:
       tessellationDetail: 0
       bones: []
       spriteID: fd1dd305ab8463543bcbeffc3ae131fd
+      internalID: 21300048
       vertices: []
       indices: 
       edges: []
@@ -627,6 +780,7 @@ TextureImporter:
       tessellationDetail: 0
       bones: []
       spriteID: 8088baf29d4667d47aa216f51f89eaa1
+      internalID: 21300050
       vertices: []
       indices: 
       edges: []
@@ -640,23 +794,402 @@ TextureImporter:
         width: 96
         height: 133
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
       spriteID: 7d53a0fcf28eeef4eb638ac1169181e1
+      internalID: 21300052
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: fullCardDeck_0
+      name: spade_two
       rect:
         serializedVersion: 2
         x: 112
         y: 240
+        width: 91
+        height: 130
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7660e67b9c4a708489d7b784b4dd27e2
+      internalID: 21300054
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spade_three
+      rect:
+        serializedVersion: 2
+        x: 209
+        y: 239
+        width: 93
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 393fe14364c0f6a419e205293f72c103
+      internalID: 4183977301780427563
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spades_four
+      rect:
+        serializedVersion: 2
+        x: 307
+        y: 238
+        width: 94
+        height: 131
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c7331fb6eaed6ce43bbf93eb306099f6
+      internalID: 8903711509915002885
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spades_five
+      rect:
+        serializedVersion: 2
+        x: 404
+        y: 240
+        width: 96
+        height: 129
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b3afa10a64fa90842993fc1da5b255dc
+      internalID: -4898339979732498812
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spades_six
+      rect:
+        serializedVersion: 2
+        x: 507
+        y: 239
+        width: 92
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 03739a801063a6d4c9a5043e7d557e61
+      internalID: -117855589084119887
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spades_seven
+      rect:
+        serializedVersion: 2
+        x: 604
+        y: 239
+        width: 93
+        height: 127
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 276a88c4e334ab14f9dd023218bad229
+      internalID: -722074290125006784
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spades_eight
+      rect:
+        serializedVersion: 2
+        x: 703
+        y: 239
+        width: 93
+        height: 130
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 978d839091aa1b141a3e80b34c347e84
+      internalID: 7074269575831663637
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spades_nine
+      rect:
+        serializedVersion: 2
+        x: 801
+        y: 240
+        width: 94
+        height: 129
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6ee7c9f437de2b840b81d6747035e5e8
+      internalID: 2908887025236657182
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spades_ten
+      rect:
+        serializedVersion: 2
+        x: 900
+        y: 239
+        width: 95
+        height: 130
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b99ff232b87f2ae4d9def80d2c6bbb97
+      internalID: -8331073658263264255
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spades_jack
+      rect:
+        serializedVersion: 2
+        x: 1001
+        y: 239
+        width: 92
+        height: 129
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2899d16549de69147afac4837cbe865f
+      internalID: 4005343282262791588
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spades_queen
+      rect:
+        serializedVersion: 2
+        x: 1097
+        y: 239
+        width: 95
+        height: 130
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e85842f8628461042a205fe0ebd36d80
+      internalID: 3177237115767616675
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spades_king
+      rect:
+        serializedVersion: 2
+        x: 1197
+        y: 237
+        width: 93
+        height: 131
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d63b8e42c859b494890b5ddcdf0fb5d4
+      internalID: 2261472352748162947
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clubs_ace
+      rect:
+        serializedVersion: 2
+        x: 10
+        y: 106
+        width: 93
+        height: 126
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 529807be74bb20c408e03f65c91a501a
+      internalID: -4555218083779362565
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clubs_two
+      rect:
+        serializedVersion: 2
+        x: 106
+        y: 104
+        width: 95
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2441eb211c4bd884cb926d4a0de65155
+      internalID: -7408351626518642554
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clubs_three
+      rect:
+        serializedVersion: 2
+        x: 208
+        y: 104
+        width: 92
+        height: 129
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a525ebad352268c46b6c89f388b9abff
+      internalID: -7558321943919768367
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clubs_four
+      rect:
+        serializedVersion: 2
+        x: 307
+        y: 104
+        width: 93
+        height: 130
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 53f994ac6a275624a871a9dce81a60ee
+      internalID: 3643374557843468069
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clubs_five
+      rect:
+        serializedVersion: 2
+        x: 404
+        y: 104
+        width: 93
+        height: 131
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d5f9a3c9655f3b3489f586b2424c1f52
+      internalID: 6830417338897361038
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clubs_six
+      rect:
+        serializedVersion: 2
+        x: 505
+        y: 104
+        width: 93
+        height: 130
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6025213adebdddc499e916068db0106b
+      internalID: -7255004697093962919
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clubs_seven
+      rect:
+        serializedVersion: 2
+        x: 604
+        y: 104
         width: 91
         height: 130
       alignment: 0
@@ -666,7 +1199,134 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 7660e67b9c4a708489d7b784b4dd27e2
+      spriteID: 311561ad8f9a89647b239e3a01e5a314
+      internalID: 3872869799028742889
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clubs_eight
+      rect:
+        serializedVersion: 2
+        x: 702
+        y: 105
+        width: 92
+        height: 130
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6faf410a62dc2b84fa1ae65283ee2a1e
+      internalID: -4640839367310454494
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clubs_nine
+      rect:
+        serializedVersion: 2
+        x: 802
+        y: 104
+        width: 93
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d7d4fab6e6564734da5151b33f9c2255
+      internalID: 8784805395826047571
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clubs_ten
+      rect:
+        serializedVersion: 2
+        x: 901
+        y: 104
+        width: 94
+        height: 130
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: db83d0d35cb3a20419fa5e3c017e8334
+      internalID: -259364962090551246
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clubs_jack
+      rect:
+        serializedVersion: 2
+        x: 1000
+        y: 104
+        width: 93
+        height: 130
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f9ffff4178ce0284daba374fa62501db
+      internalID: 1701133070053040616
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clubs_queen
+      rect:
+        serializedVersion: 2
+        x: 1098
+        y: 106
+        width: 97
+        height: 125
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ad30877fc60c61e4dacc6ab426fe8e91
+      internalID: 3937540031637793516
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clubs_king
+      rect:
+        serializedVersion: 2
+        x: 1198
+        y: 104
+        width: 91
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: acb1b7270be88cb4da36bf46b6fe9763
+      internalID: -6450736296109713407
       vertices: []
       indices: 
       edges: []
@@ -675,10 +1335,12 @@ TextureImporter:
     physicsShape: []
     bones: []
     spriteID: a9e2135fafb6fd44d8cc37157d8524c1
+    internalID: 0
     vertices: []
     indices: 
     edges: []
     weights: []
+    secondaryTextures: []
   spritePackingTag: 
   pSDRemoveMatte: 0
   pSDShowRemoveMatteOption: 0
