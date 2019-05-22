@@ -24,8 +24,9 @@ public class DeckPureCode : MonoBehaviour, IBeginDragHandler, IDragHandler, IEnd
             GameObject cardInstance = new GameObject("Card" + i);
             
             cardInstance.transform.parent = this.transform;
-            
 
+
+            CanvasRenderer canvasRenderer = cardInstance.AddComponent<CanvasRenderer>();
             SpriteRenderer spriteRenderer = cardInstance.AddComponent<SpriteRenderer>();
 
             spriteRenderer.sprite = cardSprites[i];
