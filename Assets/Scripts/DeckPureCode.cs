@@ -6,48 +6,47 @@ using UnityEngine;
 public class DeckPureCode : MonoBehaviour, IBeginDragHandler, IDragHandler, IEndDragHandler
 {
 
-    // I added a sprite and split it using the sprite editor
-    // Set "Sprite Mode" to Multiple
-    // Open Sprite Editor and split using rows/cols
-    // More help here https://docs.unity3d.com/Manual/SpriteEditor.html
-    // Full deck image came from here: http://www.milefoot.com/math/discrete/counting/images/cards.png
-    // Start is called before the first frame update
     Stack cardStack = new Stack();
     void Start()
     {
-        //Get the sliced card images as an array of 52 sprites
         Sprite[] cardSprites = Resources.LoadAll<Sprite>("Sprites/fullCardDeck");
         
         for (int i = 0; i < 52; i++)
         {         
            
             GameObject cardInstance = new GameObject("Card" + i);
+
+           
             
             cardInstance.transform.parent = this.transform;
 
 
             CanvasRenderer canvasRenderer = cardInstance.AddComponent<CanvasRenderer>();
             SpriteRenderer spriteRenderer = cardInstance.AddComponent<SpriteRenderer>();
+            RectTransform rectTransform = cardInstance.AddComponent<RectTransform>();
+            
 
             spriteRenderer.sprite = cardSprites[i];
             
 
-            float myScale = 4f;
+            float myScale = 100f;
             spriteRenderer.transform.localScale = new Vector3(myScale, myScale, myScale);
 
 
-            cardInstance.transform.position = new Vector3( .4f * i - 10, 0f, 0f);
+            rectTransform.transform.position = new Vector3( -101f, 100f, 42.125f);
+            rectTransform.transform.localScale = new Vector3(myScale, myScale, myScale);
             
      
             Debug.Log("Created Card Instance " + i);
             cardStack.Push(cardInstance);
-                
+                //2f * i - 10
                 
         }
         
         
     }
     
+    //Draggables code
     public void OnBeginDrag(PointerEventData eventData){
         Debug.Log("OnBeginDrag");
     }
