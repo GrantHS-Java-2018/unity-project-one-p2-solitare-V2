@@ -2,6 +2,7 @@
 using UnityEngine.EventSystems;
 
 using UnityEngine;
+using UnityEngine.UI;
 
 public class DeckPureCode : MonoBehaviour, IBeginDragHandler, IDragHandler, IEndDragHandler
 {
@@ -22,14 +23,14 @@ public class DeckPureCode : MonoBehaviour, IBeginDragHandler, IDragHandler, IEnd
 
 
             CanvasRenderer canvasRenderer = cardInstance.AddComponent<CanvasRenderer>();
-            SpriteRenderer spriteRenderer = cardInstance.AddComponent<SpriteRenderer>();
+            Image spriteRenderer = cardInstance.AddComponent<Image>();
             RectTransform rectTransform = cardInstance.AddComponent<RectTransform>();
             
 
             spriteRenderer.sprite = cardSprites[i];
             
 
-            float myScale = 100f;
+            float myScale = 1f;
             spriteRenderer.transform.localScale = new Vector3(myScale, myScale, myScale);
 
 
