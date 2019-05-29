@@ -22,7 +22,7 @@ public class DeckPrefab : MonoBehaviour
 
             
             cardInstance.GetComponent<Image>().sprite = cardSprites[i];
-            cardInstance.transform.position = new Vector3(50, 500, 0f);
+            cardInstance.transform.position = new Vector3(50, 550, 0f);
             Debug.Log("Created Instance " + i);
             cardInstance.transform.localScale -= new Vector3(.5F, .5F, 0);
         }
@@ -36,7 +36,7 @@ public class DeckPrefab : MonoBehaviour
 
             
             cardInstance.GetComponent<Image>().sprite = cardSprites[i];
-            cardInstance.transform.position = new Vector3(175f, 530 - 30*i, 0f);
+            cardInstance.transform.position = new Vector3(175f, 580 - 30*i, 0f);
             Debug.Log("Created Instance " + i);
             cardInstance.transform.localScale -= new Vector3(.5F, .5F, 0);
         }
@@ -50,7 +50,7 @@ public class DeckPrefab : MonoBehaviour
 
             
             cardInstance.GetComponent<Image>().sprite = cardSprites[i];
-            cardInstance.transform.position = new Vector3(325f, 590 - 30*i, 0f);
+            cardInstance.transform.position = new Vector3(325f, 640 - 30*i, 0f);
             Debug.Log("Created Instance " + i);
             cardInstance.transform.localScale -= new Vector3(.5F, .5F, 0);
         }
@@ -64,7 +64,7 @@ public class DeckPrefab : MonoBehaviour
 
             
             cardInstance.GetComponent<Image>().sprite = cardSprites[i];
-            cardInstance.transform.position = new Vector3(475f, 680 - 30*i, 0f);
+            cardInstance.transform.position = new Vector3(475f, 730 - 30*i, 0f);
             Debug.Log("Created Instance " + i);
             cardInstance.transform.localScale -= new Vector3(.5F, .5F, 0);
         }
@@ -78,7 +78,7 @@ public class DeckPrefab : MonoBehaviour
 
             
             cardInstance.GetComponent<Image>().sprite = cardSprites[i];
-            cardInstance.transform.position = new Vector3(600f, 800 - 30*i, 0f);
+            cardInstance.transform.position = new Vector3(600f, 850 - 30*i, 0f);
             Debug.Log("Created Instance " + i);
             cardInstance.transform.localScale -= new Vector3(.5F, .5F, 0);
         }
@@ -92,7 +92,7 @@ public class DeckPrefab : MonoBehaviour
 
             
             cardInstance.GetComponent<Image>().sprite = cardSprites[i];
-            cardInstance.transform.position = new Vector3(715f, 950 - 30*i, 0f);
+            cardInstance.transform.position = new Vector3(715f, 1000 - 30*i, 0f);
             Debug.Log("Created Instance " + i);
             cardInstance.transform.localScale -= new Vector3(.5F, .5F, 0);
         }
@@ -106,7 +106,7 @@ public class DeckPrefab : MonoBehaviour
 
             
             cardInstance.GetComponent<Image>().sprite = cardSprites[i];
-            cardInstance.transform.position = new Vector3(825f, 1160 - 30*i, 0f);
+            cardInstance.transform.position = new Vector3(825f, 1210 - 30*i, 0f);
             Debug.Log("Created Instance " + i);
             cardInstance.transform.localScale -= new Vector3(.5F, .5F, 0);
         }
