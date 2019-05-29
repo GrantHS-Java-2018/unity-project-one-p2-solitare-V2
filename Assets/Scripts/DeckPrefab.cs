@@ -8,9 +8,10 @@ public class DeckPrefab : MonoBehaviour
 {
 
     [FormerlySerializedAs("CardPrefab")] public GameObject cardPrefab;
-    Sprite[] cardSprites = Resources.LoadAll<Sprite>("Sprites/fullCardDeck");
+   
     void Start()
     {
+        Sprite[] cardSprites = Resources.LoadAll<Sprite>("Sprites/fullCardDeck");
         for (int i = 0; i < 52; i++)
         {         
             GameObject cardInstance = Instantiate(cardPrefab, this.transform);
