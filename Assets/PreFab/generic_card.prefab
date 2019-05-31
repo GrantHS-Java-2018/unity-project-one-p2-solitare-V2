@@ -12,8 +12,9 @@ GameObject:
   - component: {fileID: 4562612459808410883}
   - component: {fileID: 4562612459808410882}
   - component: {fileID: 4562612459808410885}
+  - component: {fileID: 6587016543248682710}
   m_Layer: 5
-  m_Name: spades_ace
+  m_Name: generic_card
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -85,5 +86,17 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 1970ffbfeeccb454994f29c89391a786, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &6587016543248682710
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4562612459808410884}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 65b1ffe82cb85a942a5447d12e06c9ee, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 

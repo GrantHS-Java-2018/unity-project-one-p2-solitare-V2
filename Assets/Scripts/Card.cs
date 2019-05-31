@@ -28,6 +28,9 @@ public class Card : MonoBehaviour
         King = 13
     }
 
+    //public Rank cardRank;
+    //public Suit cardSuit;
+
     public Card()
     {
 	
@@ -37,9 +40,9 @@ public class Card : MonoBehaviour
 		
     }
 
-    private Suit CardSuit { get; set; }
+    public Suit CardSuit { get; set; }
 
-    private Rank CardRank { get; set; }
+    public Rank CardRank { get; set; }
 
 
     public Card.Suit CardSuitMethod (int suit)

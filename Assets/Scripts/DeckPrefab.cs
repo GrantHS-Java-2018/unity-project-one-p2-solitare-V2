@@ -9,22 +9,43 @@ public class DeckPrefab : MonoBehaviour
 {
 
     [FormerlySerializedAs("CardPrefab")] public GameObject cardPrefab;
-   
+
+
+     void AssignRankSuit(String cardName, Card card)
+    {
+        string[] words = cardName.Split('_');
+
+        foreach (var word in words)
+        {
+            Debug.Log($"<{word}>");
+
+            if (word.Equals("club"))
+            {
+                card.CardSuit = Card.Suit.Club;
+            }
+
+            
+        }
+
+    }
+    
     void Start()
     {
         Sprite[] cardSprites = Resources.LoadAll<Sprite>("Sprites/fullCardDeck");
         for (int i = 0; i < 1; i++)
         {         
             GameObject cardInstance = Instantiate(cardPrefab, this.transform);
-            cardInstance.name = ("Card" + i);
+            cardInstance.name = ("Card" + i );
             Debug.Log(i);
-         
 
+            AssignRankSuit(cardSprites[i].name, cardInstance.GetComponent<Card>());
             
             cardInstance.GetComponent<Image>().sprite = cardSprites[i];
             cardInstance.transform.position = new Vector3(50, 550, 0f);
             Debug.Log("Created Instance " + i);
             cardInstance.transform.localScale -= new Vector3(.5F, .5F, 0);
+            
+            
         }
         
         for (int i = 1; i < 3; i++)
