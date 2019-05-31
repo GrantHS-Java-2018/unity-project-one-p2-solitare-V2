@@ -245,8 +245,8 @@ TextureImporter:
         serializedVersion: 2
         x: 11
         y: 511
-        width: 89
-        height: 127
+        width: 92
+        height: 129
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -264,10 +264,10 @@ TextureImporter:
       name: diamond_two
       rect:
         serializedVersion: 2
-        x: 111
+        x: 109
         y: 511
-        width: 91
-        height: 128
+        width: 93
+        height: 129
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -285,10 +285,10 @@ TextureImporter:
       name: diamond_three
       rect:
         serializedVersion: 2
-        x: 208
+        x: 209
         y: 511
         width: 92
-        height: 127
+        height: 129
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -306,10 +306,10 @@ TextureImporter:
       name: diamond_four
       rect:
         serializedVersion: 2
-        x: 306
+        x: 307
         y: 510
-        width: 95
-        height: 129
+        width: 94
+        height: 130
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -327,10 +327,10 @@ TextureImporter:
       name: diamond_five
       rect:
         serializedVersion: 2
-        x: 407
-        y: 508
-        width: 89
-        height: 131
+        x: 405
+        y: 511
+        width: 94
+        height: 128
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -348,10 +348,10 @@ TextureImporter:
       name: diamond_six
       rect:
         serializedVersion: 2
-        x: 504
+        x: 505
         y: 511
         width: 92
-        height: 130
+        height: 129
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -372,7 +372,7 @@ TextureImporter:
         x: 603
         y: 511
         width: 94
-        height: 130
+        height: 129
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -393,7 +393,7 @@ TextureImporter:
         x: 702
         y: 510
         width: 92
-        height: 129
+        height: 130
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -432,13 +432,13 @@ TextureImporter:
       name: diamond_ten
       rect:
         serializedVersion: 2
-        x: 897
+        x: 899
         y: 509
         width: 94
         height: 131
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
-      border: {x: 3, y: 0, z: 0, w: 0}
+      border: {x: 1, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
@@ -453,9 +453,9 @@ TextureImporter:
       name: diamond_jack
       rect:
         serializedVersion: 2
-        x: 998
+        x: 999
         y: 511
-        width: 94
+        width: 93
         height: 129
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
@@ -474,9 +474,9 @@ TextureImporter:
       name: diamond_queen
       rect:
         serializedVersion: 2
-        x: 1096
+        x: 1098
         y: 511
-        width: 96
+        width: 94
         height: 129
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
@@ -519,7 +519,7 @@ TextureImporter:
         x: 10
         y: 374
         width: 93
-        height: 132
+        height: 131
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -726,8 +726,8 @@ TextureImporter:
       name: hearts_jack
       rect:
         serializedVersion: 2
-        x: 999
-        y: 376
+        x: 998
+        y: 374
         width: 94
         height: 130
       alignment: 0
@@ -748,9 +748,9 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 1098
-        y: 375
+        y: 374
         width: 93
-        height: 130
+        height: 131
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -834,7 +834,7 @@ TextureImporter:
         x: 209
         y: 239
         width: 93
-        height: 128
+        height: 129
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -896,8 +896,8 @@ TextureImporter:
         serializedVersion: 2
         x: 504
         y: 239
-        width: 92
-        height: 128
+        width: 94
+        height: 129
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -918,7 +918,7 @@ TextureImporter:
         x: 604
         y: 239
         width: 93
-        height: 127
+        height: 129
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -980,7 +980,7 @@ TextureImporter:
         serializedVersion: 2
         x: 900
         y: 239
-        width: 95
+        width: 94
         height: 130
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
@@ -1146,10 +1146,10 @@ TextureImporter:
       name: clubs_five
       rect:
         serializedVersion: 2
-        x: 404
+        x: 405
         y: 104
-        width: 93
-        height: 131
+        width: 94
+        height: 130
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1209,7 +1209,7 @@ TextureImporter:
       name: clubs_eight
       rect:
         serializedVersion: 2
-        x: 702
+        x: 703
         y: 104
         width: 92
         height: 129
@@ -1294,9 +1294,9 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 1098
-        y: 106
+        y: 103
         width: 97
-        height: 125
+        height: 131
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}

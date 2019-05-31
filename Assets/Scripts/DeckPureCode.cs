@@ -59,6 +59,7 @@ public class DeckPureCode : MonoBehaviour, IBeginDragHandler, IDragHandler, IEnd
     }
     
     public void OnEndDrag(PointerEventData eventData){
+        
         Debug.Log("OnEndDrag");
     }
     
