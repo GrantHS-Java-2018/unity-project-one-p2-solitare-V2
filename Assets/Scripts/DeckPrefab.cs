@@ -205,7 +205,7 @@ public class DeckPrefab : MonoBehaviour
             cardInstance.transform.localScale -= new Vector3(.5F, .5F, 0);
         }
         
-        for (int i = 29; i < 51; i++)
+        for (int i = 29; i < 52; i++)
         {         
             GameObject cardInstance = Instantiate(cardPrefab, this.transform);
             cardInstance.name = ("Card" + i);
