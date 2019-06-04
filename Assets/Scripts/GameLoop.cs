@@ -30,23 +30,7 @@ public class GameLoop : MonoBehaviour {
 	Stack _rowSevenFacedown= new Stack();
 	void Start ()
 	{
-		CardDeck deck = new CardDeck();
 		
-		
-		int color;
-		
-		
-		if (deck.IntToSuit.Equals(1))
-		{
-			color = 1;
-		}
-		
-		//Hearts, Diamonds color =1
-		//Spades, Clubs color=2
-		//+ suit for the ace piles
-		
-
-		Shuffle();
 
 		
 	}

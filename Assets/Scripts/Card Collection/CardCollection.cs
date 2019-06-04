@@ -53,8 +53,7 @@ public abstract class CardCollection : MonoBehaviour
             {
                 var cardSuit = card.CardSuitMethod(suit);
                 var cardRank = card.CardRankMethod(rank);
-                cardRankStack.Push(cardRank);
-                cardSuitStack.Push(cardSuit);
+                
             }
         }
 
@@ -63,30 +62,7 @@ public abstract class CardCollection : MonoBehaviour
     }
 
 
-    public virtual string Begin()
-    {
-        label = "Card collection class";
-        Console.WriteLine(label);
-        return label;
-    }
-
-
-
-    public void SetUp(String label)
-    {
-        this.cards = new Stack<Card>();
-        this.label = label;
-    }
-
-    public void RemoveCard()
-    {
-        cards.Pop();
-    }
-
-    public Card GetCard(int i)
-    {
-        return cards.Peek();
-    }
+   
 	
 	
 }

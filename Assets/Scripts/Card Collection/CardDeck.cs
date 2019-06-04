@@ -10,24 +10,7 @@ public class CardDeck : CardCollection{
     
 
       
-    public CardDeck()    // Constructor
-    {
-        Card card = GetCard(1);
-        //shuffleDeck();
 
-        Debug.Log("Called");
-
-    }
-    
-    
-
-      
-
-    public Card DealCard()
-    {
-        Card topCard = _deckOfCards.Pop();
-        return topCard;
-    }
         
       
 }
