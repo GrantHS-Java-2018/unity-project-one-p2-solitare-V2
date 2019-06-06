@@ -46,53 +46,7 @@ public class GameLoop : MonoBehaviour {
 
 
 
-	public void Shuffle()
-	{
-		var card = _drawPile.Pop();
-		_rowOne.Push(card);
-		card = _drawPile.Pop();
-		_rowTwoFacedown.Push(card);
-		card = _drawPile.Pop();
-		_rowTwo.Push(card);
-		
-		for(var q = 0; q < 2; q++){
-			card = _drawPile.Pop();
-			_rowThreeFacedown.Push(card);}
-		
-		card = _drawPile.Pop();
-		_rowThree.Push(card);
-		
-		for (var w = 0; w < 3; w++)
-		{
-			card = _drawPile.Pop();
-			_rowFourFacedown.Push(card);
-		}
-
-		card = _drawPile.Pop();
-		_rowFour.Push(card);
-		
-		for(var e = 0; e < 4; e++){
-			card = _drawPile.Pop();
-			_rowFiveFacedown.Push(card);}
-		
-		card = _drawPile.Pop();
-		_rowFive.Push(card);
-		
-		for(var r = 0; r < 5; r++){
-			card = _drawPile.Pop();
-			_rowSixFacedown.Push(card);}
-		
-		card = _drawPile.Pop();
-		_rowSix.Push(card);
-		
-		for(var t = 0; t < 6; t++){
-			card = _drawPile.Pop();
-			_rowSevenFacedown.Push(card);}
-		
-		card = _drawPile.Pop();
-		_rowSeven.Push(card);
-
-	}
+	
 
 	private void CheckLength()
 	{

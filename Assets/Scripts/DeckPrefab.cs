@@ -10,6 +10,7 @@ public class DeckPrefab : MonoBehaviour
 {
 
     [FormerlySerializedAs("CardPrefab")] public GameObject cardPrefab;
+    GameLoop loop = new GameLoop();
 
 
      void AssignRankSuit(String cardName, Card card)
@@ -101,6 +102,21 @@ public class DeckPrefab : MonoBehaviour
     void Start()
     {
         
+        var drawPile= new Stack();
+        var rowOne= new Stack();
+        var rowTwo= new Stack();
+        var rowThree= new Stack();
+        var rowFour= new Stack();
+        var rowFive= new Stack();
+        var rowSix= new Stack();
+        var rowSeven= new Stack();
+        var acesDiamond= new Stack();
+        var acesHearts= new Stack();
+        var acesClubs= new Stack();
+        var acesSpades= new Stack();
+
+
+        
         Sprite[] cardSprites = Resources.LoadAll<Sprite>("Sprites/fullCardDeck");
         cardSprites = ArrayExtensions.Shuffle(cardSprites);
         
@@ -111,7 +127,8 @@ public class DeckPrefab : MonoBehaviour
             cardInstance.name = ("Card" + i );
             Debug.Log(i);
 
-            AssignRankSuit(cardSprites[i].name, cardInstance.GetComponent<Card>());
+             AssignRankSuit(cardSprites[i].name, cardInstance.GetComponent<Card>());
+            rowOne.Push(cardSprites[i]);
             
             cardInstance.GetComponent<Image>().sprite = cardSprites[i];
             cardInstance.transform.position = new Vector3(50, 550, 0f);
@@ -128,6 +145,7 @@ public class DeckPrefab : MonoBehaviour
             Debug.Log(i);
          
             AssignRankSuit(cardSprites[i].name, cardInstance.GetComponent<Card>());
+            rowTwo.Push(cardSprites[i]);
             
             cardInstance.GetComponent<Image>().sprite = cardSprites[i];
             cardInstance.transform.position = new Vector3(175f, 580 - 30*i, 0f);
@@ -142,6 +160,7 @@ public class DeckPrefab : MonoBehaviour
             Debug.Log(i);
          
             AssignRankSuit(cardSprites[i].name, cardInstance.GetComponent<Card>());
+            rowThree.Push(cardSprites[i]);
             
             cardInstance.GetComponent<Image>().sprite = cardSprites[i];
             cardInstance.transform.position = new Vector3(325f, 640 - 30*i, 0f);
@@ -156,6 +175,7 @@ public class DeckPrefab : MonoBehaviour
             Debug.Log(i);
          
             AssignRankSuit(cardSprites[i].name, cardInstance.GetComponent<Card>());
+            rowFour.Push(cardSprites[i]);
             
             cardInstance.GetComponent<Image>().sprite = cardSprites[i];
             cardInstance.transform.position = new Vector3(475f, 730 - 30*i, 0f);
@@ -170,6 +190,7 @@ public class DeckPrefab : MonoBehaviour
             Debug.Log(i);
          
             AssignRankSuit(cardSprites[i].name, cardInstance.GetComponent<Card>());
+            rowFive.Push(cardSprites[i]);
             
             cardInstance.GetComponent<Image>().sprite = cardSprites[i];
             cardInstance.transform.position = new Vector3(600f, 850 - 30*i, 0f);
@@ -184,6 +205,7 @@ public class DeckPrefab : MonoBehaviour
             Debug.Log(i);
          
             AssignRankSuit(cardSprites[i].name, cardInstance.GetComponent<Card>());
+            rowSix.Push(cardSprites[i]);
             
             cardInstance.GetComponent<Image>().sprite = cardSprites[i];
             cardInstance.transform.position = new Vector3(715f, 1000 - 30*i, 0f);
@@ -198,6 +220,7 @@ public class DeckPrefab : MonoBehaviour
             Debug.Log(i);
          
             AssignRankSuit(cardSprites[i].name, cardInstance.GetComponent<Card>());
+            rowSeven.Push(cardSprites[i]);
             
             cardInstance.GetComponent<Image>().sprite = cardSprites[i];
             cardInstance.transform.position = new Vector3(825f, 1180 - 30*i, 0f);
@@ -212,6 +235,7 @@ public class DeckPrefab : MonoBehaviour
             Debug.Log(i);
          
             AssignRankSuit(cardSprites[i].name, cardInstance.GetComponent<Card>());
+            drawPile.Push(cardSprites[i]);
             
             cardInstance.GetComponent<Image>().sprite = cardSprites[i];
             cardInstance.transform.position = new Vector3(50, 100, 0f);

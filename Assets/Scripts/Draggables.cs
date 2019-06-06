@@ -10,7 +10,7 @@ public class Draggables : MonoBehaviour, IBeginDragHandler, IDragHandler, IEndDr
     public void OnBeginDrag(PointerEventData eventData)
     {
         Debug.Log("OnBeginDrag");
-        transform.GetSiblingIndex();
+        transform.GetSiblingIndex();  //Bring the dragged card to the front
         transform.SetAsLastSibling();
     }
 
@@ -18,7 +18,7 @@ public class Draggables : MonoBehaviour, IBeginDragHandler, IDragHandler, IEndDr
     {
         Debug.Log("OnDrag");
 
-        this.transform.position = eventData.position;
+        this.transform.position = eventData.position;  //track position
     }
 
     public void OnEndDrag(PointerEventData eventData)
@@ -27,6 +27,7 @@ public class Draggables : MonoBehaviour, IBeginDragHandler, IDragHandler, IEndDr
 
         DeckPrefab deck = new DeckPrefab();
         deck.cardPrefab.GetComponent<Card>();
+        var cardPosition = transform.position;
 
 
         /*   if(Card.rank==TopCard.rank+1 && 	suit==matching ){
